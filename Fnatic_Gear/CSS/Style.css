@@ -189,6 +189,12 @@ section.section1-product img {
     height: 487px;
 }
 
+#Staticmap {
+     width: 720px;
+    height: 487px;
+    margin-bottom: 30px;
+}
+
 #Login-block {
     float: left;
     width: 45%;

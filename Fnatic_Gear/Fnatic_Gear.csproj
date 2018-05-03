@@ -94,6 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\staticmap.PNG" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -110,6 +111,7 @@
     <Content Include="CSS\Style.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="JS\map.js" />
     <Content Include="Login.aspx" />
     <Content Include="Pages\About.aspx" />
     <Content Include="Pages\Contact.aspx" />
@@ -169,8 +171,6 @@
   <ItemGroup>
     <Folder Include="Admin\" />
     <Folder Include="App_Data\" />
-    <Folder Include="Images\" />
-    <Folder Include="JS\" />
     <Folder Include="Models\" />
     <Folder Include="ProductImages\" />
   </ItemGroup>
