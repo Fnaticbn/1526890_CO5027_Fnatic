@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="Fnatic_Gear.Admin.Admin" %>
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>FNATIC GEAR | Online Store</title>
+        <asp:ContentPlaceHolder ID="head" runat="server">
+            <link href="../CSS/Style.css" rel="stylesheet" type="text/css" />
+        </asp:ContentPlaceHolder>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <a href="~/Default.aspx" id="logo" runat="server"><img src="#"  runat="server" alt="Company logo"/></a>
+            <!--Navigation-->
+            <nav>
+                <a href="#" id="menu-icon"></a>
+                    <ul>
+                        <li><a href="~/Admin/Index.aspx" class="current" runat="server">Home</a></li>
+                        <li><a href="~/Admin/Add.aspx" class="current" runat="server">Add Products</a></li>
+                        <li><a href="~/Admin/List.aspx" class="current" runat="server">List Products</a></li>   
+                    </ul>
+            </nav>
+        </header>
+        <form id="form1" runat="server">
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </div>
+        </form>
+        <footer>
+                <section>
+                    <h3>FNATIC GEAR</h3>
+                    <p><b>+673 2226788</b></p>
+                    <p>Plaza Abdul Razak</p>
+                    <p>Jalan Laksamana Abdul Razak</p>
+                    <p>Bandar Seri Begawan BA 1712</p>
+                    <p>Email: aitech271@gmail.com</p>
+                </section>
+                <section>
+                    <h3>Payment Options</h3>
+                    <ul class="payment-option">
+                        <li><img src="#" runat="server" alt="Matercard Logo"/></li>
+                        <li><img src="#" runat="server" alt="Visa Logo"/></li>
+                        <li><img src="#" runat="server" alt="American Express Logo"/></li>
+                        <li><img src="#" runat="server" alt="Paypal Logo"/></li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Social Media</h3>
+                    <ul class="social">
+                        <li><img src="#" runat="server" alt="Facebook Image"/></li>
+                        <li><img src="#" runat="server" alt="Google Plus Image"/></li>
+                        <li><img src="#" runat="server" alt="Instagram Image" /></li>
+                    </ul>
+                </section>
+                </footer>
+            <footer class="second">
+                <a href="http://validator.w3.org/check?url=referer">Validate HTML  |  </a>
+                <a href="https://jigsaw.w3.org/css-validator/">Validate CSS  |  </a>
+                <a href="https://achecker.ca/checker/index.php">Check WCAG  |  </a>
+                <a href="~/Admin/Index.aspx">Admin Account</a>
+
+                <p>&copy; Copyright FNATIC GEAR 1526890 2018 - All Rights Reserved</p>
+            </footer>
+    </body>
+</html>
