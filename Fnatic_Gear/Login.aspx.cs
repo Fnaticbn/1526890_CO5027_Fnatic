@@ -62,34 +62,6 @@ namespace Fnatic_Gear
             }
         }
 
-        protected void BtnReg_Click(object sender, EventArgs e)
-        {
-            var identityDbContext = new IdentityDbContext("IdentityConnectionString");
-            var roleStore = new RoleStore<IdentityRole>(identityDbContext);
-            var roleManager = new RoleManager<IdentityRole>(roleStore);
-            var userStore = new UserStore<IdentityUser>(identityDbContext);
-            var manager = new UserManager<IdentityUser>(userStore);
-            var user = new IdentityUser() { UserName = TxtRegUser.Text };
-
-
-            IdentityRole adminRole = new IdentityRole("RegisteredUser");
-            roleManager.Create(adminRole);
-
-
-            IdentityResult result = manager.Create(user, TxtRegPass.Text);
-            if (result.Succeeded)
-
-            {
-                manager.AddToRole(user.Id, "RegisteredUser");
-                manager.Update(user);
-
-                LitErrorReg.Text = "User Registration Successful !";
-
-            }
-            else
-            {
-                LitErrorReg.Text = "An Error has occured: " + result.Errors.FirstOrDefault();
-            }
-        }
+       
     }
 }
