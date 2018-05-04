@@ -6,8 +6,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
         <form id="form1" runat="server">
         <!--Main Slider-->
-                <img src="~/Images/Slider.jpg" class="Main-Picture" runat="server"/>
-            <!--Section--> 
+            <img src="~/Images/Slider.jpg" alt="Image Slider" class="Main-Picture" runat="server" />
     <div id="container">
         <h1>Products</h1>
         <p>

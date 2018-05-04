@@ -6,6 +6,7 @@
     padding: 0px;
 }
 
+
 body {
     background: #f0f0f0;
     font: 14px/20px Arial, San-Serif;
@@ -59,6 +60,7 @@ header {
     left: 0;
     z-index: 100;
     opacity: 0.90;
+    margin: 0px;
 }
 
 #logo img {
@@ -87,6 +89,8 @@ nav ul li {
 
 .Main-Picture img {
     width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 section {

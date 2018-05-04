@@ -148,6 +148,7 @@
     <Content Include="Admin\UploadImage.aspx" />
     <Content Include="CSS\Product.css" />
     <Content Include="Images\About.jpg" />
+    <Content Include="Images\Equipment.jpg" />
     <Content Include="Images\Logo.png" />
     <Content Include="Images\Payment_Option\American.jpg" />
     <Content Include="Images\Payment_Option\Mastercard.jpg" />
@@ -166,6 +167,8 @@
     <Content Include="Images\Social_Media\Ig.jpg" />
     <Content Include="Images\Social_Media\twitter.jpg" />
     <Content Include="Images\staticmap.PNG" />
+    <Content Include="JS\jquery-3.2.0.min.js" />
+    <Content Include="JS\jquery.cycle2.min.js" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -189,6 +192,12 @@
     <Content Include="Pages\About.aspx" />
     <Content Include="Pages\Contact.aspx" />
     <Content Include="Pages\Product.aspx" />
+    <Content Include="ProductImages\1.jpg" />
+    <Content Include="ProductImages\2.jpg" />
+    <Content Include="ProductImages\3.jpg" />
+    <Content Include="ProductImages\4.jpg" />
+    <Content Include="ProductImages\5.jpg" />
+    <Content Include="ProductImages\6.jpg" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Web.config" />
@@ -280,7 +289,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="ProductImages\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
