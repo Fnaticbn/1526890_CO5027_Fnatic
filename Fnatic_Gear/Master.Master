@@ -12,7 +12,7 @@
     </head>
     <body>
         <header>
-            <a href="~/Default.aspx" id="logo" runat="server"><img src="#"  runat="server" alt="Company logo"/></a>
+            <a href="~/Default.aspx" id="logo" runat="server"><img src="~/Images/Logo.png"  runat="server" alt="Company logo"/></a>
             <!--Navigation-->
             <nav>
                 <a href="#" id="menu-icon"></a>
@@ -39,18 +39,15 @@
                 <section>
                     <h3>Payment Options</h3>
                     <ul class="payment-option">
-                        <li><img src="#" runat="server" alt="Matercard Logo"/></li>
-                        <li><img src="#" runat="server" alt="Visa Logo"/></li>
-                        <li><img src="#" runat="server" alt="American Express Logo"/></li>
-                        <li><img src="#" runat="server" alt="Paypal Logo"/></li>
+                        <li><img src="~/Images/Payment_Option/Paypal.jpg" alt="Paypal Logo" runat="server" /></li>
                     </ul>
                 </section>
                 <section>
                     <h3>Social Media</h3>
                     <ul class="social">
-                        <li><img src="#" runat="server" alt="Facebook Image"/></li>
-                        <li><img src="#" runat="server" alt="Google Plus Image"/></li>
-                        <li><img src="#" runat="server" alt="Instagram Image" /></li>
+                        <li><img src="~/Images/Social_Media/fb.jpg" runat="server" alt="Facebook Image"/></li>
+                        <li><img src="~/Images/Social_Media/Ig.jpg" runat="server" alt="Instagram Image"/></li>
+                        <li><img src="~/Images/Social_Media/twitter.jpg" runat="server" alt="Twitter Image" /></li>
                     </ul>
                 </section>
                 </footer>
