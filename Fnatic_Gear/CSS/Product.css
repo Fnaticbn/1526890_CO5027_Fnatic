@@ -1,0 +1,9 @@
+﻿#Left-Block {
+    float: left;
+    width: 40%;
+}
+
+#Right-Block {
+    float: right;
+    width: 60%;
+}

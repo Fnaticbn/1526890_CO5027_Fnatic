@@ -1,0 +1,12 @@
+﻿ .Main-Picture {
+            width: auto;
+        }
+
+        #Repeater ul li {
+            float: left;
+            width: 30%;
+        }
+
+        .repeater-image {
+            height: 300px;
+        }

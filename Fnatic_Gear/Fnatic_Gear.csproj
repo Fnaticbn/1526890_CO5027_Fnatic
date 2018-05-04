@@ -146,6 +146,7 @@
     <Content Include="Admin\Index.aspx" />
     <Content Include="Admin\List.aspx" />
     <Content Include="Admin\UploadImage.aspx" />
+    <Content Include="CSS\Product.css" />
     <Content Include="Images\About.jpg" />
     <Content Include="Images\Logo.png" />
     <Content Include="Images\Payment_Option\American.jpg" />

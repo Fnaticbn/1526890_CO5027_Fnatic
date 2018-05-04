@@ -12,7 +12,7 @@
     </head>
     <body>
         <header>
-            <a href="~/Default.aspx" id="logo" runat="server"><img src="#"  runat="server" alt="Company logo"/></a>
+            <a href="~/Default.aspx" id="logo" runat="server"><img src="~/Images/Logo.png"  runat="server" alt="Company logo"/></a>
             <!--Navigation-->
             <nav>
                 <a href="#" id="menu-icon"></a>
@@ -40,16 +40,13 @@
                     <p>Email: aitech271@gmail.com</p>
                 </section>
                 <section>
-                    <h3>Payment Options</h3>
+                    <h3>Payment Method</h3>
                     <ul class="payment-option">
-                        <li><img src="#" runat="server" alt="Matercard Logo"/></li>
-                        <li><img src="#" runat="server" alt="Visa Logo"/></li>
-                        <li><img src="#" runat="server" alt="American Express Logo"/></li>
-                        <li><img src="#" runat="server" alt="Paypal Logo"/></li>
+                        <li><img src="~/Images/Payment_Option/Paypal.jpg" runat="server" alt="Paypal Logo"/></li>
                     </ul>
                 </section>
                 <section>
-                    <h3>Social Media</h3>
+                    <h3>Social Medias</h3>
                     <ul class="social">
                         <li><img src="#" runat="server" alt="Facebook Image"/></li>
                         <li><img src="#" runat="server" alt="Google Plus Image"/></li>
