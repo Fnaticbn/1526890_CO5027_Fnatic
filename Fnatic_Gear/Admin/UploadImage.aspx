@@ -6,18 +6,19 @@
     <div id="container">
         <h1>Upload Product Image</h1>
         <p>
-            <asp:FileUpload ID="FileUploadControl" runat="server" Height="34px" Width="356px" />
+            <asp:FileUpload ID="FileUploadControl" runat="server" Height="34px" Width="356px" BorderColor="Black" BorderStyle="Solid" BorderWidth="1px" />
+        &nbsp;&nbsp;
+            <asp:Button ID="BtnImgUpload" runat="server" Height="36px" OnClick="BtnImgUpload_Click" Text="Upload" Width="148px" BorderColor="Black" BorderStyle="Solid" BorderWidth="1px" />
         </p>
         <p>
-            <asp:Button ID="BtnImgUpload" runat="server" Height="36px" OnClick="BtnImgUpload_Click" Text="Upload" Width="148px" />
-        </p>
+            &nbsp;</p>
         <p>&nbsp;</p>
         <p>
             <asp:Image ID="CurrentImage" runat="server" />
         </p>
         <p>&nbsp;</p>
         <p>
-            <asp:Button ID="BtnBack" runat="server" Height="24px" OnClick="BtnBack_Click" Text="Back" Width="137px" />
+            <asp:Button ID="BtnBack" runat="server" Height="24px" OnClick="BtnBack_Click" Text="Back" Width="168px" BackColor="#333333" ForeColor="White" />
         </p>
 
     </div>

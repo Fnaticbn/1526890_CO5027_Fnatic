@@ -20,5 +20,15 @@ namespace Fnatic_Gear.Admin
             HttpContext.Current.GetOwinContext().Authentication.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
             Response.Redirect("~/login.aspx");
         }
+
+        protected void BtnAdd_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Admin/Add.aspx");
+        }
+
+        protected void BtnList_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Admin/List.aspx");
+        }
     }
 }

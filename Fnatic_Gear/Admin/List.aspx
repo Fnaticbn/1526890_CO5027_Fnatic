@@ -6,7 +6,7 @@
     <div id="container">
         <h1>List Products</h1>
         <p>
-            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="White" BorderColor="#CC9966" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataKeyNames="ProductId" DataSourceID="SqlDataSource1">
+            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="White" BorderColor="#CC9966" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataKeyNames="ProductId" DataSourceID="SqlDataSource1" Height="226px" Width="889px">
                 <Columns>
                     <asp:BoundField DataField="ProductId" HeaderText="Product Id" InsertVisible="False" ReadOnly="True" SortExpression="ProductId" />
                     <asp:BoundField DataField="ProductName" HeaderText="Product Name" SortExpression="ProductName" />
@@ -56,6 +56,11 @@
                     <asp:Parameter Name="original_Price" Type="String" />
                 </UpdateParameters>
             </asp:SqlDataSource>
+        </p>
+        <p>
+            <asp:Button ID="BtnHome" runat="server" BackColor="#333333" ForeColor="White" Height="26px" OnClick="BtnHome_Click" Text="Admin Home" Width="166px" />
+&nbsp;&nbsp;
+            <asp:Button ID="BtnAdd" runat="server" BackColor="#333333" ForeColor="White" Height="24px" OnClick="BtnAdd_Click" Text="Add Products" Width="167px" />
         </p>
         <p>&nbsp;</p>
     </div>

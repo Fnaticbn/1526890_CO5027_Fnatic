@@ -13,6 +13,24 @@ namespace Fnatic_Gear.Admin {
     public partial class Index {
         
         /// <summary>
+        /// BtnAdd control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtnAdd;
+        
+        /// <summary>
+        /// BtnList control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtnList;
+        
+        /// <summary>
         /// BtnLogOut control.
         /// </summary>
         /// <remarks>

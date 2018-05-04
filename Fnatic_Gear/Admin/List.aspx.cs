@@ -13,5 +13,15 @@ namespace Fnatic_Gear.Admin
         {
 
         }
+
+        protected void BtnHome_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Admin/Index.aspx");
+        }
+
+        protected void BtnAdd_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Admin/Add.aspx");
+        }
     }
 }

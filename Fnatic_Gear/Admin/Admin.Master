@@ -48,9 +48,9 @@
                 <section>
                     <h3>Social Medias</h3>
                     <ul class="social">
-                        <li><img src="#" runat="server" alt="Facebook Image"/></li>
-                        <li><img src="#" runat="server" alt="Google Plus Image"/></li>
-                        <li><img src="#" runat="server" alt="Instagram Image" /></li>
+                       <li><img src="~/Images/Social_Media/fb.jpg" runat="server" alt="Facebook Image"/></li>
+                        <li><img src="~/Images/Social_Media/Ig.jpg" runat="server" alt="Instagram Image"/></li>
+                        <li><img src="~/Images/Social_Media/twitter.jpg" runat="server" alt="Twitter Image" /></li>
                     </ul>
                 </section>
                 </footer>

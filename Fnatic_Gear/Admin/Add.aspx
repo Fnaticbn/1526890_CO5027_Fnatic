@@ -90,5 +90,12 @@
                 </UpdateParameters>
             </asp:SqlDataSource>
         </p>
+        <p>
+            <asp:Button ID="BtnHome" runat="server" BackColor="#333333" BorderColor="Black" ForeColor="White" Height="24px" OnClick="BtnHome_Click" Text="Admin Home" Width="167px" />
+&nbsp;&nbsp;
+            <asp:Button ID="BtnList" runat="server" BackColor="#333333" ForeColor="White" Height="25px" OnClick="BtnList_Click" Text="List Products" Width="165px" />
+        </p>
+        <p>
+            &nbsp;</p>
     </div>
 </asp:Content>
