@@ -7,16 +7,17 @@
     <div id="container">
         <h1>Log in</h1>
         <p>Username&nbsp;
-            <asp:TextBox ID="TxtUserLog" runat="server" Width="168px"></asp:TextBox>
+            <asp:TextBox ID="TxtUserLog" runat="server" Width="168px" BackColor="White" BorderColor="Black" BorderStyle="Solid" BorderWidth="1px"></asp:TextBox>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="* Email Username Required" ControlToValidate="TxtUserLog"></asp:RequiredFieldValidator>
             <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ErrorMessage="* Invalid Email Format" ControlToValidate="TxtUserLog" ValidationExpression="\w+([-+.'']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
         </p>
         <p>Password&nbsp;
-            <asp:TextBox ID="TxtPassLog" runat="server" Width="168px" TextMode="Password"></asp:TextBox>
+            <asp:TextBox ID="TxtPassLog" runat="server" Width="168px" TextMode="Password" BorderColor="Black" BorderStyle="Solid" BorderWidth="1px"></asp:TextBox>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="* Password Required" ControlToValidate="TxtPassLog"></asp:RequiredFieldValidator>
         </p>
+        <p>&nbsp;</p>
         <p>
-            <asp:Button ID="BtnLogin" runat="server" Height="33px" OnClick="BtnLogin_Click" Text="Log - In" Width="159px" />
+            <asp:Button ID="BtnLogin" runat="server" Height="33px" OnClick="BtnLogin_Click" Text="Log - In" Width="159px" BorderColor="Black" BorderStyle="Solid" BorderWidth="1px" />
         </p>
         <p>
             <asp:Literal ID="LitErrorMsg" runat="server"></asp:Literal>
